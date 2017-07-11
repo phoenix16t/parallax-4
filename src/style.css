@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container > div {
+  /*border: 1px solid red;*/
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  width: 100px;
+}
+
+
+.el, .el2, .el3 {
+  position: absolute;
+}
+
+.el2 {
+  top: 50px;
+  left: 200px;
+}
+
+.outside {
+  border: 1px solid green;
+  height: 200px;
+  width: 200px;
+}
+
+.inside {
+  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+}
+
+.constrain {
+  border: 1px solid blue;
+}
+
+.clock {
+  border-radius: 50px;
+  border: 1px solid blue;
+  height: 100px;
+  width: 100px;
+}
+
+.minute_wrapper, .hour_wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+/*   border: 1px solid green; */
+/*   transform: rotateZ(90deg) */
+}
+
+.minute {
+  width: 60px;
+  height: 10px;
+  position: absolute;
+  background-color: green;
+  top: 50%;
+  margin-top: -5px;
+  left: 35px
+}
+
+.hour {
+  width: 35px;
+  height: 16px;
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  margin-top: -8px;
+  left: 45px
+}
+
+[data-parallax].show_parallax {
+  border: 1px solid blue;
+}
+
+.show_parallax_container {
+  border: 1px solid red;
+}
